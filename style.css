@@ -47,7 +47,7 @@ margin:0;
 padding:0 0 0 0;
 color:#000;
 background:#efefef url(css/img/gray_jean.png);
-font:normal 0.9em/150% 'Arimo', arial, verdana, sans-serif;
+font:normal 0.9em/150% "Trebuchet MS", Helvetica, sans-serif;
 text-shadow: 0 0 1px transparent; /* google font pixelation fix */
 font-style:normal;
 }
@@ -82,7 +82,7 @@ background:#fff;
 /* NAV BAR*/
 .navbar{
 text-align: center;
-background: #89b376;
+background: #689a3f;
 width: 100%;
 height: 68px;
 color: #000;
@@ -120,31 +120,52 @@ width:100%;
 .navbar li{
 	/* Bump shade */
 
-	background: #94ba83;
-	-webkit-box-shadow: inset 0px 3px 5px 2px #94ba83;
-	-moz-box-shadow: inset 0px 3px 5px 2px #94ba83;
-	box-shadow: inset 0px 3px 5px 2px #94ba83;
+	background: #75b045;
+	-webkit-box-shadow: inset 0px -2px 5px 2px #84b75a;
+	-moz-box-shadow: inset 0px -2px 5px 2px #84b75a;
+	box-shadow: inset 0px -2px 5px 2px #84b75a;
 
+	/*round corners*/
 
+	-moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -khtml-border-radius: 7px;
+    border-radius: 7px;
 
-width:23%;
-height: 60px;
-text-align: center;
-list-style-type:0;
-display:inline-block;
-color:#fff;
-text-decoration:none;
-text-transform: uppercase;
-line-height:100%;
-font-size: .8em;
+	width:23%;
+	height: 60px;
+	text-align: center;
+	list-style-type:0;
+	display:inline-block;
+
+}
+
+.navbar li p{
+	text-decoration:none;
+	text-transform: uppercase;
+	line-height:100%;
+	font-size: .75em;
+
+	text-shadow: 1px 1px 2px #000;
+
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #b8d2ac;
+	font-weight: bolder;
+	margin-top: 40px;
+}
+
+.navbar li:hover p{
+	color: #70A45A;
+	font-weight: bolder;
+	margin-top: 40px;
 }
 
 .navbar li:hover{
-	background:#78A862;
-	-webkit-box-shadow: inset 0px -3px 5px 2px #3E692B;
-	-moz-box-shadow: inset 0px -3px 5px 2px #3E692B;
-	box-shadow: inset 0px -3px 5px 2px #3E692B;
-	-webkit-box-shadow: inset 0px 3px 5px 2px #3E692B;
+	background:#5a8934;
+	-webkit-box-shadow: inset 0px -3px 5px 2px #456b26;
+	-moz-box-shadow: inset 0px -3px 5px 2px #456b26;
+	box-shadow: inset 0px -3px 5px 2px #456b26;
+	-webkit-box-shadow: inset 0px 3px 5px 2px #456b26;
 }
 
 
