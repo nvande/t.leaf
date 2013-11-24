@@ -223,12 +223,31 @@ width: 50%;
 }
 
 #joepic{
+-moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -khtml-border-radius: 7px;
+    border-radius: 7px;
 text-align:center;
 width: 50%
 
 }
 
+#tablebottom{
+
+}
+
+#tabletop{
+}
+
 #infotable{
+<<<<<<< HEAD
+width: 80%;
+margin-right: auto;
+margin-right: auto;
+}
+
+#blendertop{
+margin-top: 20px;
 margin-left:auto;
 margin-right:auto;
 width:90%;
