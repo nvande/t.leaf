@@ -87,6 +87,7 @@ z-index:1000;
 margin:0;
 bottom:0;
 position:fixed;
+padding: 4px;
 z-index:150;
 _position:absolute;
 _top:expression(eval(document.documentElement.scrollTop+
