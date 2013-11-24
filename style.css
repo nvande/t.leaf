@@ -80,14 +80,17 @@ background:#fff;
 /* NAV BAR*/
 .navbar{
 text-align: center;
-background:#78A862;
-position:fixed;
-top:0;
-left:0;
+background: #588742;
 width: 100%;
 color: #000;
 z-index:1000;
 margin:0;
+bottom:0;
+position:fixed;
+z-index:150;
+_position:absolute;
+_top:expression(eval(document.documentElement.scrollTop+
+        (document.documentElement.clientHeight-this.offsetHeight)));
 }
 
 .navbar #logo{
@@ -113,7 +116,11 @@ width:100%;
 }
 
 .navbar li{
-width:25%;
+background:#78A862;
+width:20%;
+height:50px;
+margin: 5px;
+text-align: center;
 margin:0;
 padding:0;
 list-style-type:0;
@@ -121,9 +128,9 @@ display:inline-block;
 }
 
 .navbar li a{
+text-align: center;
 display:inline-block;
 color:#fff;
-padding:1em 1.3em;
 text-decoration:none;
 text-transform: uppercase;
 line-height:100%;
