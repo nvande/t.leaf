@@ -120,18 +120,6 @@ width:100%;
 .navbar li{
 	/* Bump shade */
 
-	background: #93b655;
-	-webkit-box-shadow: inset 0px 2px 5px 2px #aec881;
-	-moz-box-shadow: inset 0px 2px 5px 2px #aec881;
-	box-shadow: inset 0px 2px 5px 2px #aec881;
-
-	/*round corners*/
-
-	-moz-border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -khtml-border-radius: 7px;
-    border-radius: 7px;
-
 	width:23%;
 	height: 60px;
 	text-align: center;
@@ -162,10 +150,24 @@ width:100%;
 
 .navbar li:hover{
 	background:#7b9849;
-	-webkit-box-shadow: inset 0px -3px 5px 2px #456b26;
-	-moz-box-shadow: inset 0px -3px 5px 2px #456b26;
-	box-shadow: inset 0px -3px 5px 2px #456b26;
-	-webkit-box-shadow: inset 0px 3px 5px 2px #456b26;
+	-webkit-box-shadow: inset 0px -3px 5px 2px #869e5b;
+	-moz-box-shadow: inset 0px -3px 5px 2px #869e5b;
+	box-shadow: inset 0px -3px 5px 2px #869e5b;
+	-webkit-box-shadow: inset 0px 3px 5px 2px #869e5b;
+}
+
+.navbar li.current{
+	background: #93b655;
+	-webkit-box-shadow: inset 0px 2px 5px 2px #aec881;
+	-moz-box-shadow: inset 0px 2px 5px 2px #aec881;
+	box-shadow: inset 0px 2px 5px 2px #aec881;
+
+	/*round corners*/
+
+	-moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -khtml-border-radius: 7px;
+    border-radius: 7px;
 }
 
 
