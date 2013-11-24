@@ -82,7 +82,7 @@ background:#fff;
 /* NAV BAR*/
 .navbar{
 text-align: center;
-background: #689a3f;
+background: #86a54f;
 width: 100%;
 height: 68px;
 color: #000;
@@ -120,10 +120,10 @@ width:100%;
 .navbar li{
 	/* Bump shade */
 
-	background: #75b045;
-	-webkit-box-shadow: inset 0px -2px 5px 2px #84b75a;
-	-moz-box-shadow: inset 0px -2px 5px 2px #84b75a;
-	box-shadow: inset 0px -2px 5px 2px #84b75a;
+	background: #93b655;
+	-webkit-box-shadow: inset 0px 2px 5px 2px #aec881;
+	-moz-box-shadow: inset 0px 2px 5px 2px #aec881;
+	box-shadow: inset 0px 2px 5px 2px #aec881;
 
 	/*round corners*/
 
@@ -155,13 +155,13 @@ width:100%;
 }
 
 .navbar li:hover p{
-	color: #70A45A;
+	color: #6c8540;
 	font-weight: bolder;
 	margin-top: 40px;
 }
 
 .navbar li:hover{
-	background:#5a8934;
+	background:#7b9849;
 	-webkit-box-shadow: inset 0px -3px 5px 2px #456b26;
 	-moz-box-shadow: inset 0px -3px 5px 2px #456b26;
 	box-shadow: inset 0px -3px 5px 2px #456b26;
