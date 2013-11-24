@@ -151,11 +151,10 @@ width:100%;
 .navbar li:hover{
 	/* Put rouded edges here*/
 	background:#7b9849;
-	-webkit-box-shadow: inset 0px -3px 5px 2px #869e5b;
-	-moz-box-shadow: inset 0px -3px 5px 2px #869e5b;
-	box-shadow: inset 0px -3px 5px 2px #869e5b;
-	-webkit-box-shadow: inset 0px 3px 5px 2px #869e5b;
-
+	-webkit-box-shadow: inset 0px -3px 5px 2px #5d6e3f;
+	-moz-box-shadow: inset 0px -3px 5px 2px #5d6e3f;
+	box-shadow: inset 0px -3px 5px 2px #5d6e3f;
+	-webkit-box-shadow: inset 0px 3px 5px 2px #5d6e3f;
 	/*round corners*/
 
 	-moz-border-radius: 7px;
