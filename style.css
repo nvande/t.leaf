@@ -206,3 +206,19 @@ border:5px solid #ddd;
 margin:30px 0;
 display:block;
 }
+
+#nick{
+text-align: center;
+}
+
+#joe{
+text-align: center;
+}
+
+#nickpic{
+	text-align:center;
+}
+
+#joepic{
+	text-align:center;
+}
