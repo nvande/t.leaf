@@ -52,6 +52,10 @@ text-shadow: 0 0 1px transparent; /* google font pixelation fix */
 font-style:normal;
 }
 
+.grid{
+	margin-bottom: 70px;
+}
+
 #wrap{
 width:100%;
 background:#fff;
@@ -238,8 +242,9 @@ width: 50%
 }
 
 #infotable{
-<<<<<<< HEAD
+
 width: 80%;
+max-width: 500px;
 margin-right: auto;
 margin-right: auto;
 margin-top: ;
