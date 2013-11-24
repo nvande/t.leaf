@@ -14,12 +14,12 @@
 -----------------------------------*/
 h1,h2,h3,h4,h5,h6{
 font-family: "Arimo", arial, verdana, sans-serif;
-font-weight:normal;
 }
 
 thead th,
 tbody th{
 font-family: "Arimo", arial, verdana, sans-serif;
+
 }
 
 button,
@@ -28,6 +28,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"]{
 font-family: "Arimo", arial, verdana, sans-serif;
+font-style: normal;
 }
 
 .menu{
@@ -48,6 +49,7 @@ color:#000;
 background:#efefef url(css/img/gray_jean.png);
 font:normal 0.9em/150% 'Arimo', arial, verdana, sans-serif;
 text-shadow: 0 0 1px transparent; /* google font pixelation fix */
+font-style:normal;
 }
 
 #wrap{
@@ -82,6 +84,7 @@ background:#fff;
 text-align: center;
 background: #588742;
 width: 100%;
+height: 68px;
 color: #000;
 z-index:1000;
 margin:0;
@@ -116,14 +119,10 @@ width:100%;
 
 .navbar li{
 background:#78A862;
-width:24%;
+width:23%;
+height: 60px;
 text-align: center;
 list-style-type:0;
-display:inline-block;
-}
-
-.navbar a li{
-text-align: center;
 display:inline-block;
 color:#fff;
 text-decoration:none;
