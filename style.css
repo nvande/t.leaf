@@ -215,13 +215,6 @@ width: 50%;
 padding:5% 0 0 0;
 }
 
-#tablebottom{
-
-}
-
-#tabletop{
-}
-
 #infotable{
 
 width: 80%;
@@ -230,6 +223,14 @@ margin-right: auto;
 margin-left: auto;
 margin-top: 0;
 margin-bottom: 0;
+}
+
+#infotable td img{
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+
 }
 
 #blendertop{
