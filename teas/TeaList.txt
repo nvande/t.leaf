@@ -1,0 +1,81 @@
+Format for each file:
+
+TeaName,Category(herbal,black,green,white),Nation,DominantFlavor,plant,ShortDescription,OtherUses/facts(such as medicinal)
+
+Tea Bases (Camellia Sinensis)
+
+Black Tea
+
+    Made from fermented leaves of tea plants. 
+
+Chinese teas:
+
+    Keemun tea
+    Yunnan tea
+    Oolong Tea
+    Green Tea
+    Matcha 
+
+Indian teas:
+
+    Assam tea
+    Nilgiri tea
+    masala tea
+    badam tea
+    Made from semi-fermented leaves of tea plants 
+
+Genmaicha Tea
+
+Yellow Tea
+
+White Tea
+
+    Made from the early buds of tea plants. The are generally the rarest and most expensive of the regular teas. As a result of the short oxidation, white tea contains the most health benefits of any tea. 
+
+
+Pu-erh
+
+    Pu-erh tea comes from the Yunnan province in China, and has a distinct 
+earthy aroma. This tea differs from other black tea because it grows a thin layer of mold on the leaves, which are harmless and known to have many health benefits. Pu-erh, like wine, gets better with age. Cakes of Pu-erh that have aged for decades are sold for several thousand dollars.
+Flavored Teas[edit]
+
+Chai
+
+Earl Grey Tea
+
+    Earl Grey tea is named after its inventor, Charles, Earl Grey. The flavouring of Earl Grey Tea comes from the Bergamot plant, which is a citrus grown plant in the Mediterranean. 
+
+Lapsang souchong tea
+
+    Lapsang souchong is a tea of Chinese origin which is noted for its smoky taste. 
+
+English Breakfast tea
+
+Irish Breakfast tea
+
+Jasmine tea
+
+    Tea infused with Jasmine 
+
+Russian Caravan
+Herbal Teas (Tisanes)
+    Rooibos
+    Lemon Rooibos
+    Lemon and Ginger
+    Honeybush
+    Spearmint
+    Peppermint
+    Chamomile
+    Yerba Mate 
+
+Compressed Teas
+
+Tea Bricks
+
+    Tea compressed into a brick shape, for ease of transport, sometimes decoratively. 
+
+
+Tea braid
+
+
+Red tea - rooibos - naturally caffeine free and low in tannin - many health benefits. 
