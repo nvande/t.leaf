@@ -12,6 +12,11 @@
 /*---------------------------------
 	OVERRIDES
 -----------------------------------*/
+.press, img, .press:focus, img:focus{
+    outline: 0 !important;
+    border:0 none !important;
+}
+
 h1,h2,h3,h4,h5,h6{
 font-family: "Arimo", arial, verdana, sans-serif;
 }
@@ -50,6 +55,10 @@ background:#efefef url(css/img/gray_jean.png);
 font:normal 0.9em/150% "Trebuchet MS", Helvetica, sans-serif;
 text-shadow: 0 0 1px transparent; /* google font pixelation fix */
 font-style:normal;
+}
+
+img.title{
+
 }
 
 .grid{
@@ -119,8 +128,10 @@ width:100%;
 	list-style-type:0;
 	display:inline-block;
 
-	border-top:1px solid #fff;
+	border-top:1px solid #bed399;
 	border-bottom: 1px solid #5d6e3f;
+	border-left:1px solid #6e8841;
+	border-right:1px solid #6e8841;
 
 	/*round corners*/
 
@@ -152,7 +163,7 @@ width:100%;
 }
 
 .navbar li:hover, .navbar li.current:hover{
-	border-bottom:1px solid #fff;
+	border-bottom:1px solid #bed399;
 	border-top: 1px solid #5d6e3f;
 
 	/* Put rouded edges here*/
@@ -217,6 +228,10 @@ margin-bottom: 0;
     -webkit-border-radius: 20px;
     -khtml-border-radius: 20px;
     border-radius: 20px;
+
+    -moz-box-shadow:    0px 3px 12px 0px #333;
+  	-webkit-box-shadow: 0px 3px 12px 0px #333;
+  	box-shadow:         0px 3px 12px 0px #333;
 
 }
 
