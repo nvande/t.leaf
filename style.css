@@ -79,52 +79,56 @@ background:#fff;
 
 /* NAV BAR*/
 .navbar{
+text-align: center;
+background:#78A862;
 position:fixed;
 top:0;
 left:0;
 width: 100%;
-background:green;
-color:#fff;
+color: #000;
 z-index:1000;
+margin:0;
 }
 
-	.navbar #logo{
-	position:absolute;
-	top:0;
-	right:0;
-	padding:0.5em 1em;
-	font-size: 1.7em;
-	color:#efefef;
-	text-decoration:none;
-	}
+.navbar #logo{
+position:absolute;
+top:0;
+right:0;
+padding:0.5em 1em;
+font-size: 1.7em;
+color:#efefef;
+text-decoration:none;
+}
 
-	.navbar span{
-	color:#86dc00;
-	}
+.navbar span{
+color:#86dc00;
+}
 
 
-	.navbar ul{
-	display:inline-block;
-	margin:0;
-	padding:0;
-	}
+.navbar ul{
+display:inline-block;
+margin:0;
+padding:0;
+width:100%;
+}
 
-		.navbar li{
-		margin:0;
-		padding:0;
-		list-style-type:0;
-		display:inline-block;
-		}
+.navbar li{
+width:25%;
+margin:0;
+padding:0;
+list-style-type:0;
+display:inline-block;
+}
 
-		.navbar li a{
-		display:inline-block;
-		color:#efefef;
-		padding:1em 1.3em;
-		text-decoration:none;
-		text-transform: uppercase;
-		line-height:100%;
-		font-size: 1.2em;
-		}
+.navbar li a{
+display:inline-block;
+color:#fff;
+padding:1em 1.3em;
+text-decoration:none;
+text-transform: uppercase;
+line-height:100%;
+font-size: 1.2em;
+}
 
 .callout{
 background:#4598ef;/*#86dc00;*/
