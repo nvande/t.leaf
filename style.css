@@ -209,16 +209,24 @@ display:block;
 
 #nick{
 text-align: center;
+width: 50%;
 }
 
 #joe{
 text-align: center;
+width: 50%;
 }
 
 #nickpic{
 text-align:center;
+width: 50%;
 }
 
 #joepic{
 text-align:center;
+width: 50%
+}
+
+#infotable{
+width: 80%;
 }
