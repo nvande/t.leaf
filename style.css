@@ -211,17 +211,21 @@ display:block;
 text-align: center;
 width: 50%;
 padding:5% 0 0 0;
+
 }
 
 #infotable{
-
 width: 80%;
 max-width: 300px;
 margin-right: auto;
 margin-left: auto;
 margin-top: 0;
 margin-bottom: 0;
+max-height: 400px;
+min-width: 240px;
 }
+
+
 
 #infotable td img{
     -moz-border-radius: 20px;
@@ -233,6 +237,18 @@ margin-bottom: 0;
   	-webkit-box-shadow: 0px 3px 12px 0px #333;
   	box-shadow:         0px 3px 12px 0px #333;
 
+  	max-width: 90px;
+  	max-height: 90px;
+}
+
+#infotable td img:hover{
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+
+	max-width: 90px;
+	max-height: 90px;
 }
 
 #blendertop{
