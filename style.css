@@ -207,6 +207,35 @@ margin:30px 0;
 display:block;
 }
 
+/* TEAS.HTML PAGE ---------------------------------------------TEAS.HTML PAGE-----*/
+
+.listline{
+	border: 3px solid #93b655;
+	text-align: center;
+	padding: 5px;
+	background: #bed399;
+	/*min-height: 80px;*/
+	max-height: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	 -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.linediv{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;;
+	margin-left: 8%;
+	margin-right: 8%;
+	font-size: 28px;
+}
+
+/* END TEAS.HTML PAGE ------------------------------------------TEAS.HTML PAGE------*/
+
 .tableCell{
 text-align: center;
 width: 50%;
