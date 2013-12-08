@@ -207,34 +207,84 @@ margin:30px 0;
 display:block;
 }
 
+/* INDEX.HTML PAGE -------------------------------------------INDEX.HTML PAGE-----*/
+
+.homelist{
+	font-size: 22px;
+	color: #996600;
+}
+
+.homelist li{
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+/* END INDEX.HTML PAGE -----------------------------------END INDEX.HTML PAGE-----*/
+
+
 /* TEAS.HTML PAGE ---------------------------------------------TEAS.HTML PAGE-----*/
 
+
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+
 .listline{
+	margin-top: 0px;
+	margin-bottom: 0px;
 	border: 3px solid #93b655;
 	text-align: center;
-	padding: 5px;
 	background: #bed399;
 	/*min-height: 80px;*/
 	max-height: 70px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 
-	 -moz-border-radius: 8px;
+	-moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     -khtml-border-radius: 8px;
     border-radius: 8px;
 }
 
 .linediv{
+	margin-left: 1%;
+	margin-right: 1%;
+	font-size: 20px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	display: inline-block;;
-	margin-left: 8%;
-	margin-right: 8%;
-	font-size: 28px;
+	display: inline-block;
+	width: 22%;
+	vertical-align: middle;
 }
 
-/* END TEAS.HTML PAGE ------------------------------------------TEAS.HTML PAGE------*/
+
+/* may not use these two */
+.left{
+	margin-left: 2px;
+	margin-right: 2px;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	width: 22%;
+	border: solid 2px;
+	vertical-align: middle;
+}
+
+.right{
+	margin-right: 2px;
+	margin-left: 2px;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	width: 22%;
+	border: solid 2px;
+	vertical-align: middle;
+}
+
+/* END TEAS.HTML PAGE ------------------------------------END TEAS.HTML PAGE------*/
 
 .tableCell{
 text-align: center;
